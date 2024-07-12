@@ -28,7 +28,9 @@
 
 The /summarize-ses path processes SES (Amazon Simple Email Service) events, transforming and summarizing the received data into a structured format that indicates spam, virus, and DNS policy checking, along with email sender and receiver details.
 
-Endpoint: http://localhost:3000/email-event/summarize-ses
+Endpoint: POST http://localhost:3000/email-event/summarize-ses
+
+Example json for request body: <a href="https://drive.google.com/file/d/1IR_CJruLM-GKBZdIxJLE5vkAUaFhp5jo/view?usp=sharing" target="_blank">link</a>
 
 ## Installation
 
